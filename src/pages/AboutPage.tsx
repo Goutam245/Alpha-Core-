@@ -1,0 +1,19 @@
+import Navbar from '@/components/Navbar';
+import About from '@/components/About';
+import Footer from '@/components/Footer';
+import ScrollProgress from '@/components/ScrollProgress';
+
+const AboutPage = () => {
+  return (
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <ScrollProgress />
+      <Navbar />
+      <main className="pt-20">
+        <About />
+      </main>
+      <Footer />
+    </div>
+  );
+};
+
+export default AboutPage;
